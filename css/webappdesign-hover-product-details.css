@@ -1,0 +1,49 @@
+div[class*=webappdesign-details-] table, div[class*=webappdesign-details-] tbody, div[class*=webappdesign-details-] tr {
+    display: block;
+}
+ 
+div[class*=webappdesign-details-] table tbody td {
+    display: block;
+    overflow: auto;
+    padding: 1rem;
+    margin: 0 auto;
+ 
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    text-align: center;
+}
+ 
+div[class*=webappdesign-details-] td:first-child {
+    font-weight: 600;
+    padding-bottom: 0;
+}
+ 
+div[class*=webappdesign-details-] tr {
+    background: #fff;
+}
+ 
+div[class*=webappdesign-details-] tr:first-child td {
+    width: 100%;
+    padding: 1.7rem .5rem;
+ 
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .025rem;
+}
+ 
+div[class*=webappdesign-details-] tr:nth-child(even) {
+    background: #f2f2f2;
+}
+ 
+div[class*=webappdesign-hover-buttons-] {
+    padding-bottom: 0.5rem;
+ 
+    text-align: center;
+}
+ 
+div[class*=webappdesign-hover-buttons-] a {
+    width: 80%;
+   
+    font-weight: 600 !important;
+}
